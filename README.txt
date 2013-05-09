@@ -1,13 +1,15 @@
-BoxParse
-    ported to ruby by Ryan Davis, ryand-ruby@zenspider.com
-    http://seattlerb.rubyforge.org/
+= BoxParse
 
-== DESCRIPTION:
+home :: http://seattlerb.rubyforge.org/
+
+== DESCRIPTION
 
 Allows you to lay out HTML using ASCII art. Stolen from psykotic's
 code posted to reddit: http://programming.reddit.com/info/k9dx/comments
 
-== SYNOPSIS:
+ported to ruby by Ryan Davis, ryand-ruby@zenspider.com
+
+== SYNOPSIS
 
     require 'box_layout'
     
@@ -29,21 +31,21 @@ code posted to reddit: http://programming.reddit.com/info/k9dx/comments
     puts "<style>* { border: 1px solid black }</style>"
     puts layout % %w[header left body right footer].map {|s| "**#{s}**" }
 
-== REQUIREMENTS:
+== REQUIREMENTS
 
 * ruby 1.8+
 * rubygems
 * hoe
 
-== INSTALL:
+== INSTALL
 
 * sudo gem install box_layout
 
-== LICENSE:
+== LICENSE
 
 (The MIT License)
 
-Copyright (c) 2007 Ryan Davis, ryand-ruby@zenspider.com
+Copyright (c) Ryan Davis, seattle.rb
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
