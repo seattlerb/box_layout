@@ -1,9 +1,9 @@
 #!/usr/local/bin/ruby -w
 
-require 'test/unit'
+require 'minitest/autorun'
 require 'box_layout'
 
-class TestBoxLayout < Test::Unit::TestCase
+class TestBoxLayout < Minitest::Test
   def setup
     @grid = "
 ---------
