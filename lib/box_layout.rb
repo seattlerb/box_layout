@@ -9,7 +9,7 @@ class Box
   end
 
   def == o
-    x = o.x and y = o.y and right == o.right and bottom == o.bottom
+    x == o.x and y == o.y and right == o.right and bottom == o.bottom
   end
   alias :eql? :==
 
